@@ -10,6 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            LoginValidation l = new LoginValidation();
+            l.ValidateUserInput(UserLogin.UserRoles.ADMIN);
+            TestUser t = new TestUser("asdasdasdasd");
+            Console.WriteLine(t.ToString());
         }
     }
 }
